@@ -12,8 +12,8 @@ RUN rm -rf webapps/ROOT
 # Note: Maven generates the file in 'target/'. We rename it to ROOT.war
 COPY target/*.war webapps/ROOT.war
 
-# Step 5: Expose port 8080 (the default Tomcat port)##############
+# Step 5: Expose port 8080 (the default Tomcat port)
 EXPOSE 8080
 
-# Step 6: Start Tomcat###
+# Step 6: Start Tomcat
 CMD ["catalina.sh", "run"]
