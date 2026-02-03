@@ -15,5 +15,5 @@ COPY target/*.war webapps/ROOT.war
 # Step 5: Expose port 8080 (the default Tomcat port)
 EXPOSE 8080
 
-# Step 6: Start Tomcat
+# Step 6: Start Tomcat###
 CMD ["catalina.sh", "run"]
