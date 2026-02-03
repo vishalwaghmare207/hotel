@@ -4,7 +4,7 @@ FROM tomcat:9.0-jdk11-openjdk-slim
 # Step 2: Set the working directory inside the container
 WORKDIR /usr/local/tomcat
 
-# Step 3: Remove the default "ROOT" application that comes with Tomcat
+# Step 3: Remove the default "ROOT" application that comes with Tomcat#####
 # This ensures your hotel app becomes the main site (accessible at http://ip:8081/)
 RUN rm -rf webapps/ROOT
 
