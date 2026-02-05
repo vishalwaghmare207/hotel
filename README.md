@@ -14,7 +14,7 @@ Database:- MYSQL for Storing Transaction history
 
 
 
-##### Easy to Installed using executable file(.exe)
+############# Easy to Installed using executable file(.exe)
 
 ![Screenshot 2022-07-30 170902](https://user-images.githubusercontent.com/84500245/182027633-1c16938c-4697-4a5c-a562-b8a0e13c4a01.jpg)
 
